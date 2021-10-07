@@ -1,0 +1,26 @@
+{
+  "name": "syn",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.ts"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cross-fetch": "^3.1.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "node-fetch": "^3.0.0",
+    "nodemon": "^2.0.13"
+  },
+  "devDependencies": {
+    "axios": "^0.22.0",
+    "circular-json": "^0.5.9",
+    "mongodb": "^4.1.2",
+    "request": "^2.88.2"
+  }
+}
